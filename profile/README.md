@@ -13,7 +13,7 @@ Everything we publish will generally be released under CC0 or MIT, where the lic
 choose. CC0 asks nothing in return at all; MIT asks only that the notice travels with the code.
 Take what is useful to your projects.
 
-### What is here now
+### Working with AI agents
 
 Three repositories from the same work, each doing a different job:
 
@@ -28,5 +28,16 @@ Three repositories from the same work, each doing a different job:
 
 Each one works alone. Together they cover a project from the first instruction to the last
 commit.
+
+### Application security
+
+- [cloudflare-turnstile-form-hardening](https://github.com/fightingforsidewalk/cloudflare-turnstile-form-hardening):
+  hardening a public form on Cloudflare — the bot challenge, the proxy hop that carries the
+  real client IP, rate limiting, validation, and getting the message safely into an inbox.
+  Field notes from one implementation, including the controls that looked correct and were
+  not. A companion covers stored content that gets rendered later.
+
+Different from the three above: not part of an operating model, just what one surface took
+to harden and why each part is there.
 
 [fightingforsidewalk.com](https://fightingforsidewalk.com)
