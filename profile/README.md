@@ -17,8 +17,10 @@ Take what is useful to your projects.
 
 Three repositories from the same work, each doing a different job:
 
-- **Coordination** — [claude-relay](https://github.com/fightingforsidewalk/skill-claude-relay):
+- **Coordination** — [vault-relay](https://github.com/fightingforsidewalk/vault-relay):
   how several chats on one project reach each other without a person carrying the messages.
+  Works with Claude or any AI tool that can run a command. Its first version,
+  [claude-relay](https://github.com/fightingforsidewalk/skill-claude-relay), is still available.
 - **The record** — [canonical-tracker](https://github.com/fightingforsidewalk/skill-canonical-tracker):
   one record as the truth, every derived view patched from it, and a check that fails when
   they disagree.
